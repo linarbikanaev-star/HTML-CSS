@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+.container {
+  width: 860px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container {
+  width: 715px;
+  height: 267px;
+  background-color: #828282;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.item {
+  width: 139px;
+  height: 207px;
+  border-radius: 12px;
+  background-color: #424242;
+}
